@@ -7,8 +7,8 @@ const Logo = () => (
       <figure className="logo__figure">
         <img
           className="logo__image"
-          src="/static/logo/felida-music-white@2x.png"
-          alt="Felida Music | Admin"
+          src="/static/logo/fetida-music-white@2x.png"
+          alt="Fetida Music | Admin"
         />
         <style jsx>{`
           .logo__figure {
