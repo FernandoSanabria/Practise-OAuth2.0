@@ -14,7 +14,7 @@ const playlistMocks = require("./utils/mocks/playlist")
 
 const { config } = require("./config")
 
-const app = express();
+const app = express()
 
 // static files
 app.use("/static", express.static(path.join(__dirname, "public")));

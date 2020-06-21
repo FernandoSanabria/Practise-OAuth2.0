@@ -2,12 +2,14 @@ nav.navbar.is-primary
     .container
         .navbar-brand
             span.navbar-item
-                img.logo(src='/static/logo/fetida-music-white@2x.png')
+                img.logo(src='/static/logo/felida-music-white@2x.png')
         .navbar-menu
             .navbar-end
                 if userInfo
                     .navbar-item
                         a.has-text-white(href='/playlists') Playlists
+                //- .navbar-item
+                //-     .g-signin2(data-onsuccess='onSignIn')
                 .navbar-item
                     a.button.is-dark(href=`${userInfo ? '/logout' : '/login'}`)
                         span.icon
