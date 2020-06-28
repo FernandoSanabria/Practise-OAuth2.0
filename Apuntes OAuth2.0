@@ -1,0 +1,27 @@
+*** Apuntes OAuth2.0
+// en blog => cliente
+npm i -S express dotenv jsonwebtoken body-parser
+npm -i -D nodemon
+
+npm i -S dotenv request cors cookie-parser
+
+// en admin => servidor 
+
+npm i -S dotenv isomorphic-fetch babel-plugin-transform-def
+ine
+
+
+// en api 
+
+
+
+
+
+/////////////////////////
+
+https://fetidamusic.now.sh/api
+
+
+
+
+
